@@ -1,0 +1,105 @@
+@media  screen and (max-width: 1090px) {
+    .headerStudent h1{
+        font-size: 3rem;
+    }
+    .state1Header{
+        font-size: 3rem;
+    }
+    .state1title{
+        font-size: 0.7rem;
+    }
+    .Layout2Heading{
+        font-size: 2rem;
+    }
+    .footer{
+        font-size: 0.8rem;
+    }
+    .headerBoldContent{
+        font-size: 2rem;
+    }
+    .headerSubheading{
+        font-size:0.8rem;
+    }
+    .headerButtons{
+        font-size: 0.3rem;
+    }
+  }
+  @media screen and (max-width:520px){
+     .state1Header{
+        font-size: 2.5rem;
+     }
+     .headerBoldContent{
+        font-size: 1rem;
+    }
+     .Layout2Heading{
+        font-size: 1.6rem;
+    }
+    .Layout2Para{
+        font-size: 0.6rem;
+    }
+    .subInp{
+        width: 70vw;
+    }
+    .subInputBox{
+        font-size: 1rem;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    .subSubButton{
+        font-size: 0.8rem;
+        margin: 2px;
+        border-radius: 5px;
+    }
+  }
+  @media screen and (max-width:321px) {
+    .headerCourseCards{
+        width: 90vw;
+        
+    }
+    .headerContainer{
+        width: 90vw;
+    }
+  }
+  
+  @media screen and (max-width: 1118px) {
+    .navPages,
+    .navAuth {
+        display: none;
+    }
+    .toggle-btn {
+        display: block;
+        font-size: 1.5rem;
+        font-family: Montserrat, sans-serif;
+        color: white;
+        background-color: #FF7B52;
+        font-weight: 700;
+        border: none;
+        cursor: pointer;
+    }
+    .navCollapse.active {
+        display: block;
+        position: absolute;
+        top: 60px; 
+        right: 0px;
+        padding: 10px;
+        opacity: 80%;
+        z-index: 100;
+        align-items: flex-end;
+        width: 20%;
+    }
+    .navCollapse.active .navPages {
+        display: block;
+        text-align: right;
+        color: black;
+        background-color:rgb(16, 59, 230);
+        align-items: flex-end;
+    }
+    .navPages a, .navAuth a, .navAuth button {
+        display: block;
+        font-size: 1rem;
+    }
+    .navPages a:hover{
+        color: green;
+    }
+}
+

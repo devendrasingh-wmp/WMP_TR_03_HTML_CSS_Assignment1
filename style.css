@@ -1,0 +1,867 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+:root{
+    --headerPage: #FF7B52;
+    /* --check: rgb(17, 53, 184); */
+    /* --checkBorder:2px solid rgb(61, 186, 23); */
+    --courseCardBackgroud:#fff;
+    --fontFamily:Montserrat;
+    --layout2Backgroud: #26335D;
+    --buttonColor:#8D5CF6;
+    --mw:230px;
+
+}
+
+/* =============== << header -1 page  >> ==================*/
+
+.header-1{
+    background-color: var(--headerPage);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: url('Photos/headerSection/hero-8-bg-shape-cover-dark.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: var(--checkBorder);
+    box-sizing: border-box;
+    gap: 100px;
+
+}    
+
+    /* navbar */
+.navBarContainer{
+    width: 92vw;
+    height: 15%;
+    border: 2px solid var(--check);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.navCollapse{
+    width: 62%;
+    border: var(--checkBorder);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navPages{
+    
+}
+.navAuth{
+    display: flex;
+    align-items: center;
+}
+.navAuth a{
+    margin: 30px;
+    color: white;
+    font-family: var(--fontFamily);
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 2px 2px #333;
+}
+.navAuth button{
+    /* width: 50%;
+    height: 100%; */
+    left: 4px;
+    font-size: 1.2rem;
+    padding: 15px 25px 15px 25px;
+    gap: 15px;
+    border-radius: 5px;
+    background: var(--buttonColor);
+    color: white;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+
+}
+.navPages a{
+    margin: 10px;
+    color: white;
+    font-family: var(--fontFamily);
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    text-decoration: none;
+
+}
+.navBrand{
+    width: 15%;
+    border: var(--checkBorder);
+    /* font-family: var(--brandNameFont);*/
+    color: white; 
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+
+}
+
+
+    /*============ header Secation =================*/
+
+
+.headerContainer{
+   width: 73vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   /* min-width: var(--mw); */
+}
+.headerContent{
+   border: var(--checkBorder);
+   display: flex;
+}
+.headerStudent{
+    width: 54%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    font-family: var(--fontFamily);
+    color: white;
+}
+
+ .headerBoldContent{
+    font-family: Montserrat;
+    font-size: 4rem;
+    font-weight: 700;
+    /* line-height: 90%; */
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+.headerSubheading{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+.headerQuote{
+    /* width: Hug (193px)px; */
+    /* height: Hug (52px)px; */
+    padding: 3% 3%;
+    gap: 10px;
+    border-radius: 5px;
+    opacity: 0px;
+    background-color: var(--buttonColor);
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.headerLearn{
+    /* width: Hug (162px)px; */
+    /* height: Hug (52px)px; */
+    padding: 3% 3%;
+    gap: 10px;
+    border-radius: 5px;
+    background-color: var(--headerPage);
+    color: white;
+    font-size: 1.1rem;
+    border: 1px solid white;
+
+}
+.headerCourse{
+    width: 73%;
+    border: var(--checkBorder);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    margin: 30px 0px;
+
+}
+.headerCourseCard{
+    border: var(--checkBorder);
+    background-color: var(--courseCardBackgroud);
+    padding: 3%;
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: var(--mw);
+}
+.headerIcon img{
+    background-color:#E74040;
+    padding: 14px;
+    border-radius: 10px;
+}
+.headerCardTitle{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+}
+.headerDashed{
+    width: 50px;
+    height: 2px;
+    gap: 0px;
+    opacity: 0px;
+}
+.headerCardPara{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+
+/* ==================<< State 1 >> ============== */
+
+.state1C1{
+    border: var(--checkBorder);
+    display: flex;
+    align-items: center;
+    padding: 100px 0px;
+    justify-content: space-around;
+    background-color: var(--layout2Backgroud);
+    /* min-width: 320px; */
+}
+
+.state1C1Main{
+    border: var(--checkBorder);
+    width: 72vw;
+    /* height: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.state1C1TextSection{
+    border: var(--checkBorder);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.state1Header{
+    font-family: Montserrat;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: var(--buttonColor);
+    
+}
+.state1title{
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    color: white;
+}
+/* Responsive Design of Page */
+/* @media only screen and (max-width: 1040px) {
+    
+    .state1Header{
+        font-size: 2rem;
+    }
+  } */
+/* =============== << Layout 2 >> =============== */
+
+.Layout2{
+    border: var(--checkBorder);
+    background-color: var(--layout2Backgroud);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 200px;
+    /* min-width: var(--mw); */
+}
+.Layout2Main{
+    width: 73vw;    
+    border: var(--checkBorder);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 50px;
+}
+.Layout2C1{
+    /* height: 35%; */
+    border: var(--checkBorder);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 15px;
+}
+.Layout2Dashed{
+    width: 70px;
+    height: 6px;
+    gap: 0px;
+    opacity: 0px;
+}
+.Layout2Heading{
+    font-family: Montserrat;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: white;
+    margin: 30px 0px;
+}
+.Layout2Para{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: white;
+}
+.Layout2C2 img{
+    /* height: 100%; */
+    width: 100%;
+    min-width: var(--mw);
+}
+.Layout2Button{
+    font-family: Montserrat;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color:var(--buttonColor);
+
+}
+
+/* ================= << Education Page >> ================= */
+
+.education{
+     width: 100vw;
+     /* height: 1046px; */
+     border: var(--checkBorder);
+     background-color: var(--layout2Backgroud);
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     /* min-width: var(--mw); */
+}
+.educationMain{
+    /* height: 100%; */
+    width: 73%;
+    border: var(--checkBorder);
+    display: flex;
+    margin-bottom: 100px;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+}
+ .educationContent{
+    border: var(--checkBorder);
+    margin-bottom: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.educationCards{
+    width: 73vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    /* box-sizing: content-box; */
+}
+.LayoutCards{
+    padding: 10px 10px;
+}
+.educationCards>div{
+    border: var(--checkBorder);
+    width: 23%;
+    min-width: var(--mw);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 10px;
+    /* padding: 10px 0px; */
+    background-color: white;
+}
+.educationImage{
+    border: var(--checkBorder);
+    height: 50%;
+    width: 100%;
+}
+.educationCardContent{
+    border: var(--checkBorder);
+    height: 50%;
+    width: 73%;
+    padding: 5px;
+    padding-bottom:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    
+}
+.educationOrg{
+    font-family:var(--fontFamily);
+}
+.educationImage1{
+    background-image: url("./Photos/ProductCard/product-cover-133 sec-.png");
+    background-repeat: no-repeat;
+}
+.educationImg{
+    border: var(--checkBorder);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    /* width: 238px; */
+    height: 300px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.eduSale{
+    margin: 10px 20px;
+    width: 18%;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-family: var(--fontFamily);
+    padding: 5px;
+    font-weight: 200;
+}
+.eduIcons{
+    border: var(--checkBorder);
+    height: 10%;
+    text-align: center;
+    margin: 10px;
+}
+.eduIcons i{
+    background-color: white;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    border-radius: 50%;
+    padding: 5px;
+}   
+
+.educationImage2{
+    background-image: url("./Photos//ProductCard/product-cover-131.png");
+}
+.educationImage3{
+    background-image: url("./Photos//ProductCard/product-cover-130 sec-.png");
+} 
+.educationImage4{
+    background-image: url('./Photos/ProductCard/product-cover-132\ sec-.png');
+}
+.educationJoin{
+    display: flex;
+    justify-content: space-between;
+}
+.eduJoin{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: var(--buttonColor);
+    border: none;
+    background-color: none;
+}
+.eduRating{
+    width: Hug (50px)px;
+    height: Hug (26px)px;
+    padding: 5px 0px 0px 0px;
+    gap: 5px;
+    border-radius: 20px;
+    opacity: 0px;
+    color: white;
+    background-color: #26335D;
+
+}
+.eduRating i{
+    color: goldenrod;
+}
+.eduHeading{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+}
+.eduDownloads{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+.eduPara{
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+
+}
+.eduPrice{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    color: #FF7B52;
+}
+.eduLearn{
+    width: 141.14px;
+    height: Hug (44px)px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 37px;
+    border: 1px solid var(--buttonColor);
+    opacity: 0px;
+    color: var(--buttonColor);
+
+}
+/* ==================<< Layout 5 ============= */
+
+.L5CardIcon {
+    background-color: var(--buttonColor);
+    font-size: 2rem;
+    padding: 30px;
+    border-radius: 50%;
+}
+.L5CardIcon i{
+  color: white;
+}
+.eduationFree{
+    
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #252B42;
+}
+.eduationOrg{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color:  #737373;
+    ;
+}
+.educationPrice{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: var(--buttonColor);
+}
+#PriceCard2{
+    color: white;
+}
+.educationPriceSub{
+    color: #8EC2F2;
+    font-family: var(--fontFamily);
+}
+.educationDesc{
+    border: var(--checkBorder);
+    text-align: center;
+    margin: 10%;
+    font-family: var(--fontFamily);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+}
+
+.educationTry{
+    width: Fill (243px)px;
+    height: Hug (52px)px;
+    padding: 15px 40px 15px 40px;
+    gap: 10px;
+    border-radius: 5px;
+    opacity: 0px;
+    background-color: var(--buttonColor);
+    color: white;
+    font-family: var(--fontFamily);
+
+}
+#TryCard2{
+    background-color: green;
+}
+
+.educationFeat li{
+    margin: 20px 0px;
+    list-style:none;
+}
+.educationFeat li::before{
+    content: url('./Photos/Layout2Section/Vector.png');
+    background-color: green;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 5px;
+}
+.educationFeat li:nth-child(4)::before{
+    background-color: grey;
+}
+.educationFeat li:nth-child(5)::before{
+    background-color: grey;
+}
+#eduCard2{
+    background-color: var(--buttonColor);
+    color: white;
+    /* border:3px solid red; */
+}
+#eduCard2Icon{
+    background-color: white;
+    color: var(--buttonColor);
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 2rem;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+
+/* ============ Expert Layout ===============*/
+
+.ExpertCards{
+    border: var(--checkBorder);
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+
+.ExpertCards div{
+    border: var(--checkBorder);
+    background-color: white;
+    width: 40%;
+    gap: 30px;
+    min-width: var(--mw);
+}
+
+/* Card 1  */
+.ExpertCard1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px;
+    text-align: center;
+    border-radius: 1px;
+}
+
+/*  Card 2 */
+.ExpertCard2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+     padding: 20px;
+    text-align: center;
+    border-radius: 1px;
+}
+.ExpertLogo img{
+    border-radius: 50%;
+}
+.expertPara{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+
+}
+.ExpertRagix h5{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+}
+.ExpertRagix h6{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+}
+/* =======================<< Subscribe Section >> ==================== */
+.subMain{
+    width: 100vw;
+    border: var(--checkBorder);
+    background-color: var(--layout2Backgroud);
+    display: flex;
+    justify-content: space-around; 
+}
+.subContainer{
+    width: 73%;
+    border: var(--checkBorder);
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0px;
+}
+.subContent{
+    border: var(--checkBorder);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.subInp{
+    border: var(--checkBorder);
+    display: flex;
+    flex-wrap: wrap;
+}
+.subInputBox{
+    border: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 7px 0% 0% 7px;
+    margin-right: 0px;
+}
+.subSubButton{
+    border: none;
+    font-family: var(--fontFamily);
+    font-size: 1.5rem;
+    padding: 10px; 
+    background-color: var(--buttonColor);
+    border-radius: 0% 7px 7px 0%;
+    margin-left: 0px;
+}
+.subNews{
+    color:var(--buttonColor) ;
+    font-size: 1.2rem;
+}
+.subPackage{
+    color: white;
+    font-size: 2rem;
+    font-family: var(--fontFamily);
+}
+.subContent p{
+    color: white;
+    text-align: center;
+}
+/* ========================= << Footer >> ================= */
+.footer{
+    background-color: var(--layout2Backgroud);
+    border:var(--checkBorder);
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    /* min-width: var(--mw); */
+}
+.footerColumns{
+    width: 73%;
+    /* height: 272px; */
+    border:var(--checkBorder);
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.1rem;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 30px;
+}
+.footer-column{
+    border:var(--checkBorder);
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-column a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+
+  
+  .toggle-btn{
+    font-size: 0rem;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+
+  /* Figma Design */
+  .figmaDesign{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 30px; */
+  }
+
+  .figma{
+    display: flex;
+    justify-content: space-between;
+    width: 73%;
+  }
+  .figmaContent p{
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+
+  }
+  .figmaIcon{
+    color: var(--buttonColor);
+  }
+  .figma i{
+    margin: 10px;
+  }
